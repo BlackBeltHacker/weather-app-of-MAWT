@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+
+    <div class="container">
+
+        <header>
+            <h1>Cloudy With A Chance Of Gold Coins</h1>   
+        </header>
+        
+
+        <section class="row">
+
+            <aside class="search-column">
+                <div class="search-container">
+                    <h3 class="search-title">
+                        Search for a City:
+                    </h3>
+
+                    <form action="">
+                        <label for="search-query"></label>
+                        <input id="search-box" name="search-query" type="search" placeholder="London"> </br>
+                        <button>Search</button>
+                    </form>
+                </div>
+
+                <div class="history-container">
+
+                    <div class="history-item toggleVisibility">
+                    </div>
+
+                </div>
+            </aside>
+
+            <section class="weather-column">
+
+                <div class="weather-conditions">
+                    
+
+                    <div class="current-weather-container toggleVisibility">
+                        
+                        <h1 class="test">London (14/9/2022)</h1>
+                        <h2 class="test">Temp: 13.73 &#8451</h2>
+                        <h2 class="test">Wind: 1.7 K/PH</h2>
+                        <h2 class="test">Hourly: 85%</h2>
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="forecast">
+
+                    <div class="forecast-box toggleVisibility">
+                        <h3>date: 10/12/2022 </h3>
+                        <h4>Temp: 2.73 &#8451 </h4>
+                        <h4>Wind: 59% </h4>
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+        </section>
+
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
